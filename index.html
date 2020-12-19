@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      table{
+        border: 3px solid black;
+        border-collapse: collapse;
+        border: 3px solid black;
+      }
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 3px solid #ddd;
+}
+tr:hover {color: white; background-color:green;}
 </head>
 <body>
     <table id="petsTable">
         <thead>
             <tr>
-                <th>Name</th>
+                <th>Naming</th>
                 <th>Legs</th>
                 <th>Action</th>
             </tr>
@@ -17,6 +29,11 @@
         <tbody>
         </tbody>
     </table>
+
+  <!--
+  <img id= "catId" src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop" alt ="A cat image" onclick="change();" width="300">
+  <img id= "monkeyId" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.livescience.com%2Fmonkey-brains-have-engine-of-consciousness.html&psig=AOvVaw3wh4cZ1lw132BjVMw8zrSD&ust=1608434850405000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDG0Y-N2e0CFQAAAAAdAAAAABAJ" alt ="A Monkey image" onclick="change();" width="300">
+  -->
   
   <audio id="meow" src="http://static1.grsites.com/archive/sounds/animals/animals023.mp3"></audio>
    <audio id="scream" src="http://static1.grsites.com/archive/sounds/animals/animals060.mp3"></audio>
